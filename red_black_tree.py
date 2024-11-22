@@ -177,8 +177,6 @@ class Red_Black_Tree():
             print(f"Value {val} not found in the tree.")
             return
 
-        # Proceed with the deletion process if the node exists
-        original_node = node_to_delete
         original_node = node_to_delete
         original_color = original_node.color
         if node_to_delete.left is None:
